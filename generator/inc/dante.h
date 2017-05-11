@@ -5,7 +5,7 @@
 ** Login   <romain.pillot@epitech.net>
 ** 
 ** Started on  Thu Apr 27 13:47:35 2017 romain pillot
-** Last update Thu May 11 13:36:18 2017 romain pillot
+** Last update Thu May 11 13:58:47 2017 romain pillot
 */
 
 #ifndef DANTE_H_
@@ -18,7 +18,7 @@ typedef struct	s_buffer
   int		height;
 }		t_buffer;
 
-t_buffer	*create_buffer(int width, int height);
+t_buffer	*create_buffer(int width, int height, char fill);
 
 void		display_buffer(t_buffer *buffer);
 
